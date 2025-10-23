@@ -71,7 +71,7 @@ export default function InstallationGuide() {
                 Copy and run this command in your terminal:
               </p>
               <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-lg border border-border">
-                <code className="text-xs font-mono text-foreground flex-1 truncate">
+                <code className="text-sm font-semibold text-foreground flex-1 truncate">
                   {command}
                 </code>
                 <Button

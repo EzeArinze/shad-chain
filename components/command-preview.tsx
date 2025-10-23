@@ -93,7 +93,7 @@ export default function CommandPreview({
         )}
       </Button>
 
-      <p className="text-xs text-muted-foreground mt-4">
+      <p className="text-xs text-muted-foreground mt-2">
         {selectedComponents.length} component
         {selectedComponents.length !== 1 ? "s" : ""} selected
       </p>
